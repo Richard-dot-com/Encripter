@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Encriptador de texto</h1>
+            
+            <label for="text">Texto para encriptar:</label><br>
+            <textarea id="text" rows="4" placeholder="Introduce el texto aquí..."></textarea><br><br>
+        
+            <label for="shift">Desplazamiento:</label><br>
+            <input type="number" id="shift" value="3"><br><br>
+        
+            <button onclick="encryptText()">Encriptar</button><br><br>
+        
+            <label for="result">Texto encriptado:</label><br>
+            <textarea id="result" rows="4" readonly placeholder="El texto cifrado aparecerá aquí..."></textarea>
+        </div>
+        <script src="encript.js"></script>
+    </body>
+</html>
